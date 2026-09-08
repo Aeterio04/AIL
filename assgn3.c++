@@ -13,8 +13,8 @@ class edge{
     int capacity;
     bool blocked;
     int congestion;
-    edge(int traffic, int s, int d,int cap,bool b){
-        traffic=traffic;
+    edge(int traf, int s, int d,int cap,bool b){
+        traffic=traf;
         src=s;
         dest=d;
         capacity=cap;
